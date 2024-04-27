@@ -1,0 +1,13 @@
+Version Control - GitHub: GitHub is a web-based platform for version control using Git. It facilitates collaboration among developers, allowing them to store, manage, and share code repositories. GitHub offers features such as issue tracking, pull requests, code review, and project management.
+
+CI/CD - Jenkins: Jenkins is an open-source automation server used for continuous integration (CI) and continuous delivery (CD) pipelines. It automates the process of building, testing, and deploying software applications. Jenkins supports a wide range of plugins and integrations with other tools, enabling customization and extensibility.
+
+Git Secrets - Trufflehog: Trufflehog is a tool for detecting and preventing secrets from being committed to Git repositories. It scans the commit history and file contents for sensitive information such as API keys, passwords, and cryptographic secrets. Trufflehog helps enhance security by identifying and removing exposed secrets.
+
+Source Composition Analysis - OWASP Dependency Checker: OWASP Dependency-Check is a software composition analysis (SCA) tool that identifies known vulnerabilities in third-party dependencies used in a project. It scans dependencies against the National Vulnerability Database (NVD) and other sources to detect security vulnerabilities and provides actionable insights for remediation.
+
+SAST - SonarQube: SonarQube is an open-source static application security testing (SAST) platform that analyzes source code for potential security vulnerabilities, code smells, and bugs. It provides detailed reports with recommendations for improving code quality and security. SonarQube supports multiple programming languages and integrates with CI/CD pipelines for automated analysis.
+
+DAST - ZAP Baseline Scan: OWASP ZAP (Zed Attack Proxy) is an open-source dynamic application security testing (DAST) tool used to identify vulnerabilities in web applications. The ZAP Baseline Scan performs a basic security assessment by scanning web applications for common vulnerabilities such as injection flaws, cross-site scripting (XSS), and insecure configurations.
+
+Vulnerability Management - Defect Dojo: DefectDojo is an open-source vulnerability management platform that helps organizations track, prioritize, and remediate security vulnerabilities. It centralizes vulnerability data from various scanning tools, including SAST, DAST, and SCA, and provides workflows for managing the vulnerability lifecycle, from discovery to resolution.
