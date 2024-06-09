@@ -37,6 +37,8 @@ OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1deb12u1, mixed mode, sharing)
 
 ### Installing plugins in Jenkins
 
+Note: always install every library manually before running the pipeline.
+
 - SSH Agent
 - Blue Ocean
 
