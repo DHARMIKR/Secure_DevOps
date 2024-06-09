@@ -10,7 +10,7 @@ Python - 3.120.192.5
 
 ## Pipeline Deployment Steps
 
-# Installing Jenkins
+### Installing Jenkins
 
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
@@ -33,3 +33,15 @@ http://127.0.0.1:8080
 
 /var/lib/jenkins/secrets/initialAdminPassword [Password file for jenkins]
 
+Then install docker in the system.
+
+### Installing plugins in Jenkins
+
+SSH Agent
+Blue Ocean
+
+Check if the git is installed or not. Set it up in Tools.
+
+### Installing and Running trufflehog
+
+docker run gesellix/trufflehog --json https://github.com/DHARMIKR/sample_devsecops.git >> trufflehog.txt
