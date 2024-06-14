@@ -52,4 +52,8 @@ OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1deb12u1, mixed mode, sharing)
 ### Setting up Sonarqube
 
 - Run sonarqube docker container [docker run -d -p 9000:9000 sonarqube] [default credentials - admin:admin]
-- 
+- Install "sonarqube scanner" plugin in Jenkins
+- Go to "account/security" in Sonarqube and generate a token from there [sqa_35679b5d7b097d411c6bd0d86cc324d7a18f7992]
+- Go to "manage/configure" in jenkins and configure the sonarqube there by giving name, server URL and authentication token
+- Add sonar automatic installation in "manage jenkins/ Tools"
+- Don't forget to add sonar token into the command of sonar scanner in jenkins
