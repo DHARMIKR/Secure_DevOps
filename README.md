@@ -57,3 +57,7 @@ OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1deb12u1, mixed mode, sharing)
 - Go to "manage/configure" in jenkins and configure the sonarqube there by giving name, server URL and authentication token
 - Add sonar automatic installation in "manage jenkins/ Tools"
 - Don't forget to add sonar token into the command of sonar scanner in jenkins
+
+### Setting up ZAP baseline scan
+
+- original project is no more maintained. so, have to use this [docker run -t ictu/zap2docker-weekly zap-baseline.py -t http://127.0.0.1:5000/api/]
