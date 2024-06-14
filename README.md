@@ -48,3 +48,8 @@ OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1deb12u1, mixed mode, sharing)
 
 
 ### Note: always install every library manually before running the pipeline.
+
+### Setting up Sonarqube
+
+- Run sonarqube docker container [docker run -d -p 9000:9000 sonarqube] [default credentials - admin:admin]
+- 
